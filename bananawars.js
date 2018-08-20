@@ -30,6 +30,7 @@ window.onload = function(){
   var gorilla = new Image();
   gorilla.onload = function () {
     ctx.drawImage(gorilla, buildingSpace-23, 400);
+    if gorilla = y + 1 banana = y = y + 1
   };
 
   gorilla.src = 'gorilla.png';
