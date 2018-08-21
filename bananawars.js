@@ -66,11 +66,13 @@ window.onload = function(){
 
     if(keys[87] == true) {
       if (y > 174) { y = y - 1; }
+      by = y;
       heightText.innerHTML = y;
     }
 
     if(keys[83] == true) {
       if (y < 550) { y = y + 1; }
+      by = y;
       heightText.innerHTML = y;
     }
 
